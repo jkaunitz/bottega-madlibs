@@ -14,9 +14,7 @@ class Home extends Component {
   }
 }
 
-// things we need to fix
-// placeholder
-// gray and green number labels
+// things we need to fixs
 // content labels
 // generate btn space/card-height
 
