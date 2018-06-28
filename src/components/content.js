@@ -3,8 +3,13 @@ import React, { Component } from "react";
 class Content extends Component {
   constructor() {
     super();
-    this.county = 1;
+    this.count = 1;
   }
+
+  componentWillReceiveProps() {
+    this.count = 1;
+  }
+
   renderLabel(data) {
     return [
       <div className="card__content__label">{this.count++}</div>,
