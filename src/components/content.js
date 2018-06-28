@@ -6,11 +6,11 @@ class Content extends Component {
     //this.this.props.data.map((object, index) => {
     //  console.log(index);
     //})
-    return (
+    return {
       <p>
         Ladies and gentlemen, this is <b>{data.color}</b> Barber, your sportscaster, bringing you the last inning of the game between the Cleveland <b>{data.pluralNoun}</b> and the <b>{data.adjectiveOne}</b>
       </p>
-  }
+    )
 }
 
 export default Content;
